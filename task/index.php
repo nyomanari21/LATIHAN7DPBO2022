@@ -24,7 +24,7 @@ if(isset($_GET['id_status'])){
 	$otask->selesaiTask($_GET['id_status']);
 }
 
-// Memanggil method getTask di kelas Task
+// Memanggil fungsi sort sesuai pilihan user
 if(isset($_GET['sort_subject'])){
 	$otask->sortSubject();
 }
